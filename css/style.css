@@ -57,7 +57,7 @@ section h2 {
 /* Navigation bar styles ============= */
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: #64a19d;
+  background-color: white;
   transition: all 0.35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -110,13 +110,21 @@ section h2 {
 
 /* Hero section ============= */
 
+.p-5 {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(250deg, #8EC5FC 0%, #E0C3FC 29%, #ffffff 99%);
+}
+
+#about {
+  background: var(--Gray-50, #F0F1F3);
+}
+
 header.masthead {
   position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url('../images/bg-img.png');
 }
 
 header.masthead .header-content {
@@ -332,6 +340,7 @@ footer ul li a.active {
 
 .btn-lg{
   background-color: #A53DFF;
+  color: white;
 }
 
 .button{
@@ -352,6 +361,29 @@ font-weight: 600;
 line-height: 56px;
 }
 
+.card-text{
+  font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.skills{
+  background: var(--Gray-900, #132238);
+}
+
+.section-heading{
+  color: var(--Gray-White, #FFF);
+}
+
+#portfolio{
+  background-color: #C3C7CE;
+}
+
+.devicons{
+  color: var(--Gray-White, #FFF);
+  font-size: 40px;
+}
 .card-columns {
     @include media-breakpoint-only(lg) {
       column-count: 4;
