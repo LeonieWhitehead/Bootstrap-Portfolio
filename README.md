@@ -6,13 +6,13 @@ The goal of this project was to produce a portfolio utilising Bootstrap. I had t
 
 Due to utilising bootstrap I found it much easier to format the content on the page and make it responsive.
 
-##User Story
+## User Story
 
 AS A bootcamp student 
 I WANT a portoflio utilising bootstrap functionality
 SO THAT I can display my current projects and coninue to add to it
 
-##Acceptance Criteria
+## Acceptance Criteria
 
 WHEN I create an index.html file
 WHEN I create a css folder
@@ -40,7 +40,7 @@ N/A
 Click on links in the nav bar, footer or buttons throughout the page to navigate to the mentioned section.
     ```md
     ![alt text](Images\127.0.0.1_5500_index.html.png)
-    ```
+
 
 ## Credits
 
